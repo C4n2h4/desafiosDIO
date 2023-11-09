@@ -1,6 +1,6 @@
 // Definindo o nome e a quantidade de experiência (XP) do herói
 var nomeDoHeroi = "Super Herói";
-var experienciaDoHeroi = 5000; 
+var experienciaDoHeroi = 6000; 
 
 // Utilizando uma estrutura de decisão para determinar o nível do herói
 var nivelDoHeroi;
