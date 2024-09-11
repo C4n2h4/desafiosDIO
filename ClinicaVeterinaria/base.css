@@ -1,19 +1,18 @@
-*{
+html, body {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
-
-
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #f1f1f1;
-    height: 100vh;
+    display: flex;
     justify-content: center;
 }
 
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
 .main {
     display: flex;
     flex-flow: column;
@@ -36,9 +35,4 @@ body {
 .footer {
     background-color: rgb(99, 56, 240);
     min-height: 150px;
-}
-
-h1{
-    font: 10px sans-serif rgb(141, 15, 15);
-    padding-left: 10px;
 }
